@@ -1,0 +1,147 @@
+/* Base layout */
+body {
+  font-family: "Segoe UI", "Open Sans", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer styling */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+/* Inputs and text areas */
+.input-style {
+  width: 90%;
+  padding: 12px 20px;
+  margin-left: 5%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+input[type=text]:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  border: 1px solid #3498db;
+  background-color: #eaf6ff;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Button styling */
+.button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #2c80b4;
+  color: #f9f9f9;
+}
+
+/* Horizontal rule */
+hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+/* Heading */
+h3 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Alert text */
+.alert {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Profile box */
+.profile-style {
+  border: 2px dashed #7f8c8d;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+/* Button containers */
+.left-button,
+.right-button {
+  width: 48%;
+  display: inline-block;
+}
+
+.right-button {
+  float: right;
+}
+
+/* Divisions */
+.left-div,
+.right-div,
+.right-div-right {
+  width: 33.33%;
+  display: inline-block;
+}
+
+.right-div,
+.right-div-right {
+  float: right;
+}
+
+/* Table styling */
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#customers tr:hover {
+  background-color: #f1f1f1;
+}
+
+#customers th {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: left;
+  background-color: #3498db;
+  color: white;
+}

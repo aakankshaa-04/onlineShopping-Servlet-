@@ -1,0 +1,79 @@
+/* Input field styling */
+.input-style {
+  width: 40%;
+  padding: 12px 20px;
+  margin-left: 30%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  color: #2c3e50;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+input[type=text]:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  border: 1px solid #0078D7;
+  background-color: #f0f8ff;
+  box-shadow: 0 0 5px rgba(0, 120, 215, 0.4);
+}
+
+/* Button styling */
+.button {
+  background-color: #0078D7;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  margin-left: 30%;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.button:hover {
+  background-color: #005fa3;
+  color: #ffffff;
+}
+
+/* Horizontal line */
+hr {
+  width: 40%;
+  border: 0;
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px auto;
+}
+
+/* Headings */
+h3 {
+  text-align: center;
+  color: #2c3e50;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+/* Alerts */
+.alert {
+  color: #e74c3c;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Profile box */
+.profile-style {
+  border: 2px dotted #bdc3c7;
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 20px 30%;
+  border-radius: 5px;
+}
